@@ -1,7 +1,5 @@
-from operator import mod
 from django.core.exceptions import ValidationError
 from django.db import models
-from spacy import blank
 
 class Event(models.Model):
     name = models.CharField(max_length=100, unique=True)
