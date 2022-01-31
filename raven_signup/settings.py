@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("APP_SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '.carletoncybersec.club']
 
 
 # Application definition
